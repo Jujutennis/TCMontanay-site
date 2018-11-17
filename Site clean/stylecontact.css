@@ -1,0 +1,60 @@
+.presclub {
+  display: inline-block;
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  margin: 20px;
+  width: 960px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.coordonnees {
+  width: 450px;
+}
+
+.maps {
+  display: inline-block;
+  position: relative;
+}
+
+.coordonnees h1 {
+  padding-bottom: 15px;
+  border-bottom: 1px solid black;
+}
+
+form {
+  margin: 60px 40px;
+  padding: 20px;
+  border: 1px solid;
+  border-radius: 1em;
+  font-family: 'Montserrat', sans-serif;
+}
+
+form div + div {
+  margin-top: 10px;
+}
+
+label {
+  width: 90px;
+}
+
+input {
+  width: 250px;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 78%;
+  max-width: 88%;
+  box-sizing: border-box;
+  vertical-align: top;
+  height: 10em;
+}
+
+input:focus, textarea:focus {
+  border-color: #000;
+}
+
+.button {
+  padding-left: 90px;
+}
